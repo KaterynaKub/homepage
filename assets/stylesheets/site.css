@@ -32,3 +32,6 @@ blockquote cite {
 .education li {
     list-style-type: "❖";
 }
+.abilities{
+    text-transform: uppercase;
+}
