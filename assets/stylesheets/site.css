@@ -25,3 +25,10 @@ blockquote cite {
     
     font-size: 1.25rem;
     }
+
+::selection{
+    background-color: #bdee9d;
+}
+.education li {
+    list-style-type: "❖";
+}
