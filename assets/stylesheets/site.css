@@ -33,6 +33,7 @@ blockquote cite {
     list-style-type: "❖";
 }
 .abilities{
+  
     text-transform: uppercase;
 }
 
@@ -45,4 +46,7 @@ padding:1ex;
 }
 canvas{
     position:fixed;
+}
+.language{
+    text-transform: uppercase;
 }
