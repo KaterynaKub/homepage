@@ -24,7 +24,11 @@ blockquote p {
 blockquote cite {
     
     font-size: 1.25rem;
-    }
+}
+
+::-moz-selection{
+    background-color: #bdee9d;
+}
 
 ::selection{
     background-color: #bdee9d;
