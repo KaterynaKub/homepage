@@ -24,7 +24,11 @@ blockquote p {
 blockquote cite {
     
     font-size: 1.25rem;
-    }
+}
+
+::-moz-selection{
+    background-color: #bdee9d;
+}
 
 ::selection{
     background-color: #bdee9d;
@@ -33,6 +37,7 @@ blockquote cite {
     list-style-type: "❖";
 }
 .abilities{
+  
     text-transform: uppercase;
 }
 
@@ -42,4 +47,10 @@ blockquote cite {
 }
 td{
 padding:1ex;
+}
+canvas{
+    position:fixed;
+}
+.language{
+    text-transform: uppercase;
 }
