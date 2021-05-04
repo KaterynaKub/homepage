@@ -35,3 +35,11 @@ blockquote cite {
 .abilities{
     text-transform: uppercase;
 }
+
+.table{
+    display: table;
+    border-color: azure;
+}
+td{
+padding:1ex;
+}
