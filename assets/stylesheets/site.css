@@ -43,3 +43,6 @@ blockquote cite {
 td{
 padding:1ex;
 }
+canvas{
+    position:fixed;
+}
