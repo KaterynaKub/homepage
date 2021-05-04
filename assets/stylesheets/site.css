@@ -1,0 +1,45 @@
+blockquote{
+    margin: 0;
+    color: #231E28;
+    padding: 30px 30px 15px 60px;
+    border-left: 8px solid #bdee9d;
+    position: relative;
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+blockquote:before {
+    content: "\201C";
+    font-family: Arial;
+    color: #bdee9d;
+    font-size: 70px;
+    position: absolute;
+    left: 15px;
+}
+blockquote p {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+blockquote cite {
+    
+    font-size: 1.25rem;
+    }
+
+::selection{
+    background-color: #bdee9d;
+}
+.education li {
+    list-style-type: "❖";
+}
+.abilities{
+    text-transform: uppercase;
+}
+
+.table{
+    display: table;
+    border-color: azure;
+}
+td{
+padding:1ex;
+}
