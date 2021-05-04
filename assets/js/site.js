@@ -22,7 +22,7 @@ var Mouse = function (el) {
 
   var _setMouseCoordinates = function ( e ) {
 
-    e.preventDefault();
+   
     var pointer = _getPointerEvent(e),
       x = window.event.clientX
       y = window.event.clientY;
