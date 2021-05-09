@@ -1,63 +1,62 @@
 
 blockquote {
-    margin: 0;
-    color: "#231E28";
-    padding: 30px 30px 15px 60px;
-    border-left: 8px solid #bdee9d;
-    position: relative;
-    background: "#ffffff";
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-  }
-  
-  blockquote::before {
-    content: "\201C";
-    color: "#bdee9d";
-    font-size: 70px;
-    position: absolute;
-    left: 15px;
-  }
-  
-  blockquote p {
-    font-style: italic;
-    font-size: 1.25rem;
-    margin-top: 0;
-  }
-  
-  blockquote cite {
-    font-size: 1.25rem;
-  }
-  
-  ::-moz-selection {
-    background-color: "#bdee9d";
-  }
-  
-  ::selection {
-    background-color: "#bdee9d";
-  }
-  
-  .education li {
-    list-style-type: "❖";
-  }
-  
-  .abilities {
-    text-transform: uppercase;
-  }
-  
-  .table {
-    display: table;
-    border-color: azure;
-  }
-  
-  td {
-    padding: 1ex;
-  }
-  
-  canvas {
-    position: fixed;
-  }
-  
-  .language {
-    text-transform: uppercase;
-  }
-  
+  margin: 0;
+  color: "#231E28";
+  padding: 30px 30px 15px 60px;
+  border-left: 8px solid #bdee9d;
+  position: relative;
+  background: "#ffffff";
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+blockquote::before {
+  content: "\201C";
+  color: "#bdee9d";
+  font-size: 70px;
+  position: absolute;
+  left: 15px;
+}
+
+blockquote p {
+  font-style: italic;
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+blockquote cite {
+  font-size: 1.25rem;
+}
+
+::-moz-selection {
+  background-color: "#bdee9d";
+}
+
+::selection {
+  background-color: "#bdee9d";
+}
+
+.education li {
+  list-style-type: "❖";
+}
+
+.abilities {
+  text-transform: uppercase;
+}
+
+.table {
+  display: table;
+  border-color: azure;
+}
+
+td {
+  padding: 1ex;
+}
+
+canvas {
+  position: fixed;
+}
+
+.language {
+  text-transform: uppercase;
+}
